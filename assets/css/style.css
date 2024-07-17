@@ -549,6 +549,8 @@ textarea::-ms-input-placeholder
 }
 
 .home-content h1{
+    position: relative;
+    left: -4px;
     font-size:65px;
     text-transform:uppercase;
     color:#fff;
