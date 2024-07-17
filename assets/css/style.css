@@ -701,6 +701,8 @@ textarea::-ms-input-placeholder
 .experience{
     background: url(../images/city.jpg) no-repeat center top fixed;
     background-size: cover;
+    background-position: center;
+    background-position-y: 97%;
     -moz-background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -770,7 +772,7 @@ textarea::-ms-input-placeholder
 /* For Testimonial Section*/
 
 .testimonial-content{
-    margin-top:150px;
+    margin-top:120px;
 }
 
 .testimonial-content .testimonial-quote i{
@@ -1240,4 +1242,3 @@ Main components
     left: 60px;
     top: -8px;
 }
-
