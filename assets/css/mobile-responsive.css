@@ -1,0 +1,109 @@
+@media (min-width: 1500px) {
+    .home-content {
+        position: relative;
+        top: 124px;
+    }
+
+    #JUGAAR {
+        position: relative;
+        left: -13px;
+    }
+}
+
+@media (max-width: 450px) {
+    .profile-photo img {
+        position: relative;
+        top: 105px;
+    }
+
+    #JUGAAR {
+        position: relative;
+        left: -6px;
+    }
+
+    .experience {
+        text-align: center;
+    }
+
+    .experience-content {
+        text-align: center;
+    }
+
+    .about-content {
+        position: relative;
+        bottom: 24px;
+    }
+
+    .about-photo img {
+        position: relative;
+        left: 28px;
+        max-width: 86%;
+        top: -17px;
+    }
+
+    .home {
+        background: none;
+        background-size: contain;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        width: 100%;
+        overflow: hidden;
+        background-position-y: -100px;
+    }
+
+    .home-main-content {
+        background-color: #68676d;
+        height: 522px;
+    }
+
+    .home-content {
+        position: relative;
+        left: 3px;
+        top: -138px;
+    }
+
+    .home-content h1 {
+        font-size: 36px;
+    }
+
+    .home-content p {
+        font-size: 16px;
+        margin-top: 32px;
+    }
+
+    #cd-logo {
+        left: 14px;
+        top: -12px;
+    }
+
+    .cd-menu-trigger {
+        display: inline-block;
+        position: absolute;
+        right: 27px;
+        top: 18px;
+        height: 50px;
+        width: 50px;
+        line-height: 50px;
+        padding: 0 .8em;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 14px;
+        font-size: 0.875rem;
+        border: 2px solid #000000;
+    }
+}
+
+@media (max-width: 394px) {
+    .profile-photo img {
+        position: relative;
+        top: 140px;
+    }
+}
+
+@media (max-width: 376px) {
+    .profile-photo img {
+        position: relative;
+        top: 161px;
+    }
+}
